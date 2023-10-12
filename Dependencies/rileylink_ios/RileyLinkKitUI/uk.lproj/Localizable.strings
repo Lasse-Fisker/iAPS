@@ -75,13 +75,13 @@
 
 /* Detail text when battery alert disabled.
    Text indicating LED Mode is off */
-"Off" = "Off";
+"Off" = "Вимкнути";
 
 /* Text indicating LED Mode is on */
-"On" = "On";
+"On" = "Увімкнути";
 
 /* RileyLink setup description */
-"RileyLink allows for communication with the pump over Bluetooth Low Energy." = "RileyLink дозволяє зв'язуватися з насосом через Bluetooth Low Energy.";
+"RileyLink allows for communication with the pump over Bluetooth Low Energy." = "RileyLink дозволяє зв'язуватися з помпою через Bluetooth Low Energy.";
 
 /* The title of the cell showing BLE signal strength (RSSI) */
 "Signal Strength" = "Рівень сигналу";

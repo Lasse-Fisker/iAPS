@@ -30,7 +30,7 @@ extension CGM {
                     }
                     if [.dexcomG5, .dexcomG6, .dexcomG7].contains(state.cgm) {
                         Section {
-                            Button("Configuration CGM") {
+                            Button("CGM Configuration") {
                                 setupCGM.toggle()
                             }
                         }
@@ -62,10 +62,6 @@ extension CGM {
                                 }
                             }
                         }
-                    }
-
-                    Section(header: Text("Other")) {
-                        Toggle("Upload glucose to Nightscout", isOn: $state.uploadGlucose)
                     }
 
                     Section(header: Text("Experimental")) {
